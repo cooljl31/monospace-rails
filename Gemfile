@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.2.0'
-gem "rake", '~> 10.0.0'
+gem 'rails', '~> 3.2.12'
+gem "rake", "~> 12.3.3"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -10,7 +10,7 @@ gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'stripe'
 
 group :assets do
-  gem 'sass-rails',   "~> 3.2.0"
+  gem 'sass-rails', '~> 3.2.5'
   gem 'uglifier',     ">= 1.0.3"
 end
 
