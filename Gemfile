@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.2.0'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.1'
 gem "rake", '~> 10.0.0'
 
 # Bundle edge Rails instead:
@@ -10,7 +10,7 @@ gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'stripe'
 
 group :assets do
-  gem 'sass-rails',   "~> 3.2.0"
+  gem 'sass-rails', '~> 5.0.8'
   gem 'uglifier',     ">= 1.0.3"
 end
 
@@ -20,7 +20,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'thin'
+  gem 'thin', '>= 1.5.1'
 end
 
 # Use unicorn as the web server
