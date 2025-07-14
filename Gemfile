@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.2.0'
+gem 'rails', '~> 7.1.0'
 gem "rake", '~> 10.0.0'
 
 # Bundle edge Rails instead:
@@ -20,7 +20,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'thin'
+  gem 'thin', '>= 1.5.1'
 end
 
 # Use unicorn as the web server
